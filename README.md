@@ -7,8 +7,8 @@ A GNOME Shell extension that adds a X11 or Wayland session indicator to the top 
 ## Installation
 
 ```
-git clone https://github.com/prasanthc41m/gnome-default-session-switch.git
-cd gnome-default-session-switch
+git clone https://github.com/prasanthc41m/x11-wayland.git
+cd x11-wayland
 make install
 ```
 
