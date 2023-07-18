@@ -13,7 +13,7 @@ git clone https://github.com/prasanthc41m/switch-x11-wayland.git
 cd switch-x11-wayland
 make install
 ```
-
+## How it works!!
 By Default at the login screen, select the "gear" icon and select GNOME on Xorg.
 
 As an alternative, this change can be made by editing a configuration file ```/etc/gdm/custom.conf```.
