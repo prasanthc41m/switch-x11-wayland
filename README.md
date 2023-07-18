@@ -7,9 +7,9 @@ A GNOME Shell extension that adds a session indicator to the top panel. The exte
 ## Installation
 
 ```
-    git clone https://github.com/prasanthc41m/gnome-default-session-switch.git
-    cd gnome-default-session-switch
-    make install
+git clone https://github.com/prasanthc41m/gnome-default-session-switch.git
+cd gnome-default-session-switch
+make install
 ```
 
 By Default at the login screen, select the "gear" icon and select GNOME on Xorg.
