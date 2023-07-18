@@ -1,6 +1,6 @@
 {
-    "uuid": "gnome-default-session-switch@prasanthc41m.github.com",
-    "name": "GNOME Default Session Switch",
+    "uuid": "x11-wayland@prasanthc41m.github.com",
+    "name": "X11 Wayland GNOME Default Session Switch",
     "description": "A GNOME Shell extension that adds a X11 or Wayland session indicator to the top panel. The extention allows the user to switch default session between X11 and Wayland.",
     "shell-version": [ "44" ],
     "url": "https://github.com/prasanthc41m/gnome-default-session-switch",
