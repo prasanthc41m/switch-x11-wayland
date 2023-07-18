@@ -28,6 +28,7 @@ const SessionIndicator = GObject.registerClass(
                     const Me = ExtensionUtils.getCurrentExtension();
                     Util.spawn(['pkexec', 'bash', Me.path + '/x11.sh']);
                     GLib.setenv('GNOME_SESSION_TYPE', 'x11', true);
+                    Main.notify("Session change", "Please reboot to switch default session to X11.");
                 }
             });
 
@@ -37,6 +38,7 @@ const SessionIndicator = GObject.registerClass(
                     const Me = ExtensionUtils.getCurrentExtension();
                     Util.spawn(['pkexec', 'bash', Me.path + '/wayland.sh']);
                     GLib.setenv('GNOME_SESSION_TYPE', 'wayland', true);
+                    Main.notify("Session change", "Please reboot to switch default session to Wayland.");
                 }
             });
 
