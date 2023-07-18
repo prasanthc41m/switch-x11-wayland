@@ -6,7 +6,7 @@ A GNOME Shell extension that adds a session indicator to the top panel. The exte
 
 ## Installation
 
-```cd ~/.local/share/gnome-shell/extensions ; git clone https://github.com/prasanthc41m/x11waylandswitch.git```
+```cd ~/.local/share/gnome-shell/extensions ; git clone https://github.com/prasanthc41m/gnome-default-session-switch.git```
 
 ## How this works
 
