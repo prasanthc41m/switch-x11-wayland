@@ -1,9 +1,9 @@
 all: clean build
 
-PLUGIN_LOCATION = ~/.local/share/gnome-shell/extensions/x11-wayland@prasanthc41m.github.com
+PLUGIN_LOCATION = ~/.local/share/gnome-shell/extensions/switch-x11-wayland@prasanthc41m.github.com
 
 build:
-	zip x11-wayland.zip extension.js LICENSE metadata.json stylesheet.css icons/*
+	zip switch-x11-wayland.zip extension.js LICENSE metadata.json stylesheet.css icons/*
 
 install:
 	mkdir -p $(PLUGIN_LOCATION)
