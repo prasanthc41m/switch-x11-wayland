@@ -1,5 +1,5 @@
 # GNOME Default Session Switch
-A GNOME Shell extension that adds a X11 or Wayland session indicator to the top panel. The extention allows the user to switch default session between X11 and Wayland.
+A GNOME Shell extension that adds a X11 or Wayland session indicator to the top panel. This extention allows the user to switch default session between X11 and Wayland.
 
 ![alt text](img/screenshot.png)
 
