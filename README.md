@@ -8,6 +8,12 @@ A GNOME Shell extension that adds a X11 or Wayland session indicator to the top 
 3. Sometimes X11 will disable extensions at login, use (GUI) Extentions application or <br> (CLI) ```gsettings set org.gnome.shell disable-user-extensions false``` to enable it.
 
 ## Installation
+### From GNOME Extensions Website
+<a href="https://extensions.gnome.org/extension/6145/switch-x11-wayland-default-session/">
+<img src="https://raw.githubusercontent.com/prasanthc41m/switch-x11-wayland/main/img/get-it-on-ego.svg" alt="Get it on EGO" width="200" />
+</a>
+
+### Manually
 
 ```
 git clone https://github.com/prasanthc41m/switch-x11-wayland.git
