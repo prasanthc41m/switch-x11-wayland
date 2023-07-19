@@ -5,6 +5,7 @@ A GNOME Shell extension that adds a X11 or Wayland session indicator to the top 
 
 1. This extension needs sudo password to execute.
 2. You should logout and login or reboot to reflect the change in Windowing System.
+3. Sometimes X11 will disable GNOME extensions at login, use (GUI) extentions manager or (CLI) ```gsettings set org.gnome.shell disable-user-extensions false``` to enable it.
 
 ## Installation
 
