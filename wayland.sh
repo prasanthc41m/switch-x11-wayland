@@ -6,6 +6,7 @@ cat<<EOF>/etc/gdm/custom.conf
 [daemon]
 # Uncomment the line below to force the login screen to use Xorg
 #WaylandEnable=false
+WaylandEnable=true
 
 [security]
 
