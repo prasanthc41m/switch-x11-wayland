@@ -3,5 +3,5 @@
     "name": "Switch X11 Wayland Default Session",
     "description": "A GNOME Shell extension that adds a X11 or Wayland session indicator to the top panel and allows the user to switch default session between X11 and Wayland.",
     "shell-version": [ "44" ],
-    "url": "https://github.com/prasanthc41m/switch-x11-wayland",
+    "url": "https://github.com/prasanthc41m/switch-x11-wayland"
 }
