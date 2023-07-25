@@ -40,7 +40,7 @@ As an alternative, this change can be made by editing a configuration file ```/e
    Logout or reboot to enter the new session.
 
 > **Note**<br>
-With the above changes applied, the option to set the GNOME session to use Wayland will actually be removed from the "gear icon" menu on the login screen when you choose X11 as default but will return in Wayland.
+> With the above changes applied, the option to set the GNOME session to use Wayland will actually be removed from the "gear icon" menu on the login screen when you choose X11 as default but will return in Wayland.
 <br>
 > **Warning**
  Nvidia Users: Wayland (and Xwayland) works under starting with NVIDIA driver 495 and later. With GNOME 41, Wayland can be selected explicitly with GDM.
