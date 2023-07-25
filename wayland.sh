@@ -19,3 +19,10 @@ WaylandEnable=true
 #Enable=true
 EOF
 
+file="/etc/udev/rules.d/61-gdm.rules"
+if ! grep -q "^#RUN+=\"/usr/libexec/gdm-runtime-config set daemon PreferredDisplayServer xorg\"" $file; then
+    sed -i 's/RUN+=\"\/usr\/libexec\/gdm-runtime-config set daemon PreferredDisplayServer xorg\"/#&/g' $file
+fi
+if ! grep -q "^#RUN+=\"/usr/libexec/gdm-runtime-config set daemon WaylandEnable false\"" $file; then
+    sed -i 's/RUN+=\"\/usr\/libexec\/gdm-runtime-config set daemon WaylandEnable false\"/#&/g' $file
+fi
