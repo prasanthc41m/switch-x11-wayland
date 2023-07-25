@@ -42,8 +42,9 @@ As an alternative, this change can be made by editing a configuration file ```/e
 > **Note**<br>
 > With the above changes applied, the option to set the GNOME session to use Wayland will actually be removed from the "gear icon" menu on the login screen when you choose X11 as default but will return in Wayland.
 <br>
-> **Warning**
- Nvidia Users: Wayland (and Xwayland) works under starting with NVIDIA driver 495 and later. With GNOME 41, Wayland can be selected explicitly with GDM.
+
+> **Warning**<br>
+> Nvidia Users: Wayland (and Xwayland) works under starting with NVIDIA driver 495 and later. With GNOME 41, Wayland can be selected explicitly with GDM.
 <br>
 :information_source: Reference:<br>
 https://docs.fedoraproject.org/en-US/quick-docs/configuring-xorg-as-default-gnome-session/
