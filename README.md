@@ -46,7 +46,7 @@ As an alternative, this change can be made by editing a configuration file ```/e
 > **Warning**<br>
 > Nvidia Users: Wayland (and Xwayland) works under starting with NVIDIA driver 495 and later. With GNOME 41, Wayland can be selected explicitly with GDM. Older version will sometimes face issues like load X11 (Xorg) eventhough ```WaylandEnable=true``` beacuse wayland won't work with these propretory nvidia driver so forced to use X11.
 <br>
-[x] Test fix which helps relogin to wayland
+- [x] Test fix which helps relogin to wayland by editing ```/etc/udev/rules.d/61-gdm.rules```
 <br>
 <br>
 :information_source: Reference:<br>
