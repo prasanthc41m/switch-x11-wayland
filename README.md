@@ -40,14 +40,16 @@ As an alternative, this change can be made by editing a configuration file ```/e
    Logout or reboot to enter the new session.
 
 > **Note**<br>
-> With the above changes applied, the option to set the GNOME session to use Wayland will actually be removed from the "gear icon" menu on the login screen when you choose X11 as default but will return in Wayland. 
-<br>
+> With the above changes applied, the option to set the GNOME session to use Wayland will actually be removed from the "gear icon" menu on the login screen when you choose X11 as default but will return in Wayland.
+<br></br>
 
 > **Warning**<br>
 > Nvidia Users: Wayland (and Xwayland) works under starting with NVIDIA driver 495 and later. With GNOME 41, Wayland can be selected explicitly with GDM. Older version will sometimes face issues like load X11 (Xorg) eventhough ```WaylandEnable=true``` beacuse wayland won't work with these propretory nvidia driver so forced to use X11.
+<br></br>
+### To-do 
+:white_check_mark: Test fix which helps relogin to wayland by editing ```/etc/udev/rules.d/61-gdm.rules```
 <br>
-- [x] Test fix which helps relogin to wayland by editing ```/etc/udev/rules.d/61-gdm.rules```
-<br>
-<br>
+</br><br>
 :information_source: Reference:<br>
 https://docs.fedoraproject.org/en-US/quick-docs/configuring-xorg-as-default-gnome-session/
+</br>
