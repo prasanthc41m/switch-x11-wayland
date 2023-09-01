@@ -21,6 +21,7 @@ DefaultSession=gnome-xorg.desktop
 #Enable=true
 EOF
 
+sudo cp -a -u /usr/lib/udev/rules.d/61-gdm.rules /etc/udev/rules.d/
 file="/etc/udev/rules.d/61-gdm.rules"
 if ! grep -q "^#RUN+=\"/usr/libexec/gdm-runtime-config set daemon PreferredDisplayServer xorg\"" $file; then
     sed -i 's/RUN+=\"\/usr\/libexec\/gdm-runtime-config set daemon PreferredDisplayServer xorg\"/#&/g' $file
