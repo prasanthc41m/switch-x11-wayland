@@ -51,4 +51,5 @@ As an alternative, this change can be made by editing a configuration file ```/e
 <br>
 :information_source: Reference:<br>
 https://docs.fedoraproject.org/en-US/quick-docs/configuring-xorg-as-default-gnome-session/
+https://9to5linux.com/how-to-enable-wayland-for-hybrid-nvidia-graphics-on-fedora-linux-38-workstation
 </br>
