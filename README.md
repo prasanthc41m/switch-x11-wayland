@@ -9,8 +9,6 @@ A GNOME Shell extension that adds a X11 or Wayland session indicator to the top 
 
 ## Installation
 ### From GNOME Extensions Website
-[OPEN-IN-NEW-TAB](https://extensions.gnome.org/extension/6145/switch-x11-wayland-default-session/){:target="_blank" rel="noopener"}
-
 <a href="https://extensions.gnome.org/extension/6145/switch-x11-wayland-default-session/">
 <img src="https://raw.githubusercontent.com/prasanthc41m/switch-x11-wayland/main/img/get-it-on-ego.svg" alt="Get it on EGO" width="200" />
 </a>
